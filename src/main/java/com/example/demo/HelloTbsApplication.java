@@ -16,6 +16,6 @@ public class HelloTbsApplication {
 	@RequestMapping
 	String hello()
 	{
-		return "hello Dieter!";
+		return "hello TBS!";
 	}
 }
