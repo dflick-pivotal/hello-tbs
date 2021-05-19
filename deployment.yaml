@@ -30,7 +30,7 @@ spec:
         app.kubernetes.io/name: hello-tbs
     spec:
       containers:
-      - image: harbor.haas-231.pez.pivotal.io/demo-apps/hello-tbs-music:latest
+      - image: harbor.haas-231.pez.pivotal.io/tbs-created/hello-tbs:latest
         name: hello-tbs
         imagePullPolicy: IfNotPresent
         resources: {}
